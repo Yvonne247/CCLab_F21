@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+}
+
+body, p, h3 {
+  margin: 0;
+}
+
+.area-top {
+  background-color: red;
+  height: 20%;
+  text-align: center;
+}
+
+.area-middle {
+  background-color: green;
+  height: 20%;
+  text-align: center;
+}
+
+.area-top {
+  background-color: red;
+  height: 20%;
+  text-align: center;
+}

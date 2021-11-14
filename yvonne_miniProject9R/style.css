@@ -1,0 +1,30 @@
+h1 {
+  font-size: 40px;
+  text-align: center;
+  background-color:SeaGreen;
+  font-family: 'Pacifico',cursive;
+}
+
+.lyrics{
+  font-size: 20px;
+  text-align: center;
+  background-color:SandyBrown;
+  color: DarkGreen;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.link-to-other-pages{
+  background-color:SandyBrown;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 20px;
+}
+
+.introduction{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 20px;
+}
+
+a {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 20px;
+}

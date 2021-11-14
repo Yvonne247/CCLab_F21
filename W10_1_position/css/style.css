@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+}
+body, p, h3 {
+  /* background-color: yellow; */
+  margin: 0;
+}
+
+.box {
+  background-color: gray;
+  width: 200px;
+  height: 200px;
+
+  /* border-width: 5px;
+  border-color: red;
+  border-style: dotted; */
+
+  margin: 50px;
+  padding: 20px;
+}
+
+.hidden-box {
+  background-color: red;
+
+  /* visibility: hidden; */ /* element being hidden, but the place reserved */
+
+  display: none; /* element taken away */
+
+  width: 200px;
+  height: 200px;
+
+  margin: 50px;
+  padding: 20px;
+}
+
+.special-box {
+  background-color: pink;
+
+  /* position: absolute; */
+  position: fixed;
+  right: 200px;
+  top: 150px; /* 10% */
+
+  width: 200px;
+  height: 200px;
+
+  /* border-width: 5px;
+  border-color: red;
+  border-style: dotted; */
+
+  margin: 50px;
+  padding: 20px;
+}
+
+.title {
+  background-color: green;
+}
+
+.my-style {
+  background-color: pink;
+}

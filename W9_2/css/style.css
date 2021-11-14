@@ -1,0 +1,16 @@
+h3{
+  color: blue;
+  font-family: sans-serif;
+}
+
+p{
+  font-size: 30px
+}
+
+.my-title{
+  font-size: 25px
+}
+
+#very-special-sentence{
+  background-color: yellow;
+}
