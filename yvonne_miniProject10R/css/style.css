@@ -5,8 +5,8 @@ html, body {
 
 #p5-canvas {
   position: absolute;
-  right: 400px;
-  top: 150px;
+  left: 300px;
+  top: 200px;
 
   background-color: white;
 
@@ -20,6 +20,6 @@ html, body {
 
 .instructions {
   position: absolute;
-  right: 400px;
+  left: 300px;
   top: 20px;
 }
