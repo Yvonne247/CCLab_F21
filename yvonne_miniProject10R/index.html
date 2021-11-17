@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lib/p5.js"type="text/javascript"></script>
+    <script src="js/script.js"type="text/javascript"></script>
+  </head>
+  <body>
+
+    <div class="img_container">
+      <img width = "1500px" src="image/IMG_4531.gif" alt="Image">
+    </div>
+
+    <div class="instructions">
+
+      <p class = "penColor">color of the pen: <input type="range" id="pgr" min="0" max="255">
+          <input type="range" id="pgg" min="0" max="255">
+          <input type="range" id="pgb" min="0" max="255"></p>
+
+      <!-- <p class = "groundColor">ground color of the shirt:
+        <input type="range" id="bgr" min="0" max="255">
+
+          <input type="range" id="bgg" min="0" max="255">
+
+          <input type="range" id="bgb
+        " min="0" max="255"></p> -->
+        <p>thickness of the line:
+          <input type="range" id="sw" min="1" max="10"></p>
+
+      <p class = "shape">
+        <input name = "shapes" type="radio" id="radio-circle" value="circle"
+             checked>
+             <label for="circle">Circle</label>
+
+             <input name = "shapes" type="radio" id="radio-rectangle" value="rectangle"
+            checked>
+            <label for="rectangle">Rectangle</label>
+
+            <input name = "shapes" type="radio" id="radio-line" value="line"
+           checked>
+           <label for="line">Line</label></p>
+
+      </div>
+
+    </div>
+  </body>
+</html>
