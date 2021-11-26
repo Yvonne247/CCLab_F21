@@ -35,4 +35,6 @@ function draw() {
       ellipse(x, y, size, size);
     }
   }
+  cam.updatePixels();
+  img.updatePixels();
 }
