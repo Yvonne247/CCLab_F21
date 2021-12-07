@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffde1
+}
+
+canvas {
+  display: block;
+}
+
+/* #myContainer {
+  position: absolute;
+  top: 100px;
+} */
+
+.title {
+  position: absolute;
+  top: 35px;
+  left: 60px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 50px;
+}
+
+.subtitle {
+  position: absolute;
+  top: 45px;
+  left: 400px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 30px;
+  margin: 0px;
+  color: purple;
+}
+
+/* Reference for the generation of the menu:
+https://blog.csdn.net/dengyunhui1210/article/details/101764150 */
+.menu {
+  width: 2000px;
+  height: 50px;
+  margin: 0px auto 0;
+  font-size: 0;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: 60px;
+}
+
+.menu li{
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  border: 1px solid purple;
+  font-size: 20px;
+
+  margin-right:-1px;
+  text-align: center;
+  line-height: 48px;
+}
+
+.menu a{
+  color: #76448e;
+  text-decoration: none;
+}
+
+.menu li:hover{
+  background-color: #f6efef;
+}
+
+.texts {
+  position: absolute;
+  top: 190px;
+  left: 55px;
+}
+
+p{
+  margin: 0px;
+}
+
+/* .menu a:hover{
+  color: #d1d1f6;
+} */
+
+ /* starry night */

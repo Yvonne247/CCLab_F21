@@ -1,0 +1,225 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffde1;
+  background-color: #000000;
+  font-family: 'Poppins', sans-serif;
+  /* color: rgba(255, 255, 255, 0.75); */
+}
+
+canvas {
+  display: block;
+}
+
+/* modal box textInput
+Reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_bottom */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -25%);
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0,0.5); /* Fallback color */
+  background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: rgb(255, 255, 255, 0.8);
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+.modal-body {
+  position: relative;
+  left: 33%;
+}
+
+.modal-footer {
+  position: relative;
+  left: 35%
+}
+
+.buttons {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom:20px;
+  left: 20px;
+  font-size: 25px;
+  z-index: 1;
+
+}
+
+#typeIn {
+  background-color: black;
+  border: grey;
+  color: grey;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#typeIn:hover {
+  /* background-color: #4CAF50; */
+  color: white;
+}
+
+.takeAway {
+  background-color: black;
+  border: grey;
+  color: grey;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.takeAway:hover {
+  color: white;
+}
+
+#addText {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  color: black;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#addText:hover {
+  /* background-color: #4CAF50; */
+  color: grey;
+}
+
+.bhtitle {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#myContainer {
+  z-index: -1;
+  position: fixed;
+  /* position: absolute; */
+  /* top: 172px; */
+}
+
+#top-box {
+  /* background-color: #F00; */
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 100%;
+  height: 120px;
+  transform: translate(-50%, 0%);
+  /* transform: translate(-50%, -50%); */
+}
+.title {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.subtitle {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.bhtitle {
+  color: black;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  /* margin: 0px; */
+  color: purple;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Reference for coding the menu:
+https://blog.csdn.net/dengyunhui1210/article/details/101764150
+
+*/
+.menu {
+  /* width: 2000px;
+  height: 50px; */
+  margin: 0px auto 0;
+  font-size: 0;
+  list-style: none;
+  padding: 0;
+
+  transform: translate(-50%, 0%);
+  /* background-color: #F00; */
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 100%;
+  height: 120px;
+}
+
+.menu li{
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  border: 1px solid #76448e;
+  font-size: 20px;
+
+  margin-right:-1px;
+  text-align: center;
+  line-height: 48px;
+}
+
+.menu a{
+  color:#76448e;
+  text-decoration: none;
+}
+
+.menu li:hover{
+  background-color: #f6efef;
+}
+
+.texts {
+  /* margin: auto;
+  width: 50%; */
+  width: 1150px;
+  position: absolute;
+  top: 190px;
+  left: 55px;
+}
+
+img {
+  width: 800px;
+  /* position: absolute; */
+  /* top: 190px; */
+  left: 55px;
+}
+
+p {
+  margin: 0px;
+  font-size: 18px;
+  text-indent: 50px;
+  line-height: 2;
+
+}
+
+.noindent {
+  text-indent: 0px;
+}
+
+
+
+ /* starry night */
